@@ -8,6 +8,7 @@ class Database:
             user='root',
             password='',
             database='library'
+            port ='3307'
         )
         self.cursor = self.connection.cursor()
 
