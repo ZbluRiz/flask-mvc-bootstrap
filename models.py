@@ -7,7 +7,7 @@ class Database:
             host='localhost',
             user='root',
             password='',
-            database='library'
+            database='library',
             port ='3307'
         )
         self.cursor = self.connection.cursor()
